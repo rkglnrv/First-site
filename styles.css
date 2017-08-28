@@ -1,0 +1,35 @@
+html {
+		font-family: verdana;
+		background-color: lightgray;
+		text-aling: center;
+		width: 800px;
+}
+h1 {
+	color: yellow; 
+	font-size: 60px;
+	}
+
+ul li {
+		border: solid;
+}
+#první{
+	color: red;
+}
+.první-třída {
+	font-style: italic;
+}
+.tučná-třída {
+	font-weight: bold;
+	color: darkgray;
+}
+th.tučná-třída {
+	font-size: 30px;
+}
+.orámované {
+	border: dashed;
+}
+
+.highlight {
+	color: pink;
+	font-weight: bold;
+}

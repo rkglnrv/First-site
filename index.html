@@ -2,11 +2,15 @@
 <html>
 	<head>
 		<title> Moje první úžasná stránka </title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<h1 title="nadpis">Ahoj, vítejte ve Vodafone!</h1> 
+		<h1 id="první"  class="první-třída tučná třída" title="nadpis">Ahoj, vítejte ve Vodafone!</h1> 
 		<img src="stažený soubor.jpg" alt="fff">
 		<a href="https://www.google.com">odkaz na google</a>
+		<p>
+		Ahoj <span class="highlight">Lucie</span>, jak se ti líbí HTML?
+		</p>
 		
 		<div>
 			<ul>
@@ -16,7 +20,7 @@
 		</div
 		
 		
-		<div>
+		<div class="orámované">
 			<ol>
 				<li><b>první odrážka</b></li>
 				<li><i>druhá odrážka</i></li>
@@ -26,9 +30,9 @@
 		<table border="1">
 			<thead>
 				<tr>
-					<th>Jméno</th>
-					<th>Přijmení</th>
-					<th>Věk</th>
+					<th class="tučná třída">Jméno</th>
+					<th class="tučná třída">Přijmení</th>
+					<th class="tučná třída">Věk</th>
 			</thead>
 			<tbody>
 				<tr>
@@ -42,6 +46,7 @@
 					<td>24</td>
 				</tr>
 			</tbody>
+			
 		</table>
 	</body>
 </html>	
